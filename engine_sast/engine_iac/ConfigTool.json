@@ -32,13 +32,47 @@
 
             },
             "RULES_K8S": {
-
+                "CKV_K8S_37": {
+                    "checkID": "CKV_K8S_37 Minimize the admission of containers with capabilities assigned",
+                    "environment": {
+                        "dev": true,
+                        "pdn": true,
+                        "qa": true
+                    },
+                    "guideline": "guideline",
+                    "severity": "Critical",
+                    "cvss": "",
+                    "category": "Vulnerability"
+                }
             },
             "RULES_CLOUDFORMATION": {
-
+                "CKV_AWS_33": {
+                    "customID": "customID",
+                    "checkID": "CKV_AWS_33 Ensure KMS key policy does not contain wildcard (*) principal",
+                    "environment": {
+                        "dev": true,
+                        "pdn": true,
+                        "qa": true
+                    },
+                    "guideline": "guideline",
+                    "severity": "High",
+                    "cvss": "",
+                    "category": "Vulnerability"
+                }
             },
             "RULES_TERRAFORM": {
-
+                "CKV_AWS_144": {
+                    "checkID": "IAC-CKV-TERRAFORM-1 Ensure that S3 bucket has cross-region replication enabled",
+                    "environment": {
+                        "dev": true,
+                        "pdn": true,
+                        "qa": true
+                    },
+                    "guideline": "guideline",
+                    "severity": "Medium",
+                    "cvss": "",
+                    "category": "Vulnerability"
+                }
             }
         }
     },
