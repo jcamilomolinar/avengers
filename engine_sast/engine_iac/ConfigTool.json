@@ -25,8 +25,8 @@
         "USE_EXTERNAL_CHECKS_DIR": "False",
         "EXTERNAL_DIR_OWNER": "",
         "EXTERNAL_DIR_REPOSITORY": "",
-        "DEFAULT_SEVERITY": "Critical",
-        "DEFAULT_CATEGORY": "Compliance",
+        "DEFAULT_SEVERITY": "Medium",
+        "DEFAULT_CATEGORY": "Vulnerability",
         "RULES": {
             "RULES_DOCKER": {
 
