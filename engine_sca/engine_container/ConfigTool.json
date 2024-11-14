@@ -1,0 +1,56 @@
+{
+    "PRISMA_CLOUD": {
+        "TWISTCLI_PATH": "twistcli",
+        "PRISMA_CONSOLE_URL": "",
+        "PRISMA_ACCESS_KEY": "",
+        "PRISMA_API_VERSION":""
+    },
+    "TRIVY": {
+        "TRIVY_VERSION": "0.51.4"
+    },
+    "MESSAGE_INFO_ENGINE_CONTAINER": "message custom",
+    "IGNORE_SEARCH_PATTERN":"(.*_demo0|.*_cer)",
+    "THRESHOLD": {
+        "VULNERABILITY": {
+            "Critical": 4,
+            "High": 10,
+            "Medium": 20,
+            "Low": 999
+        },
+        "QUALITY_VULNERABILITY_MANAGEMENT": {
+            "PTS": [
+                {
+                    "Product Type Name": {
+                        "APPS": [
+                            "CodeApp",
+                            "CodeApp1",
+                            "CodeApp12"
+                        ],
+                        "PROFILE": "STRONG"
+                    }
+                },
+                {
+                    "Product Type Name2": {
+                        "APPS": "ALL",
+                        "PROFILE": "MODERATE"
+                    }
+                }
+            ],
+            "STRONG": {
+                "Critical": 0,
+                "High": 0,
+                "Medium": 5,
+                "Low": 15
+            },
+            "MODERATE": {
+                "Critical": 1,
+                "High": 3,
+                "Medium": 5,
+                "Low": 15
+            }
+        },
+        "COMPLIANCE": {
+            "Critical": 1
+        }
+    }
+}
